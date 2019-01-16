@@ -52,7 +52,6 @@ let setup = (env: glEnvT) => {
   }
 };
 
-
 let draw = (state: state, env: glEnvT) => {
   let { center, scale, bodies, timescale } = state;
 
